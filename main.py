@@ -2,6 +2,7 @@ import imageio
 import PySimpleGUI as sg
 import os
 
+
 class GUI ():
     def __init__(self):
         sg.theme('DarkAmber')
