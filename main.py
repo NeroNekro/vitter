@@ -8,7 +8,7 @@ class GUI ():
     def __init__(self):
         sg.theme('DarkAmber')
         self.layout = [
-            [sg.Text('How many Frames per second to export', size=(35, 1), font=("Helvetica", 15), key="text_export")],
+            [sg.Text('Save every X Frame:', size=(20, 1), font=("Helvetica", 15), key="text_export")],
             [sg.Input(default_text="1")],
             [sg.Text('Choose your video', size=(20, 1), font=("Helvetica", 15), key="text")],
             [sg.In(), sg.FileBrowse(file_types=(("Video Files", "*.mp4"),))],
